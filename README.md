@@ -14,7 +14,7 @@ The initial idea for the comparison of r/pregnant and r/parenting came out of th
 * r/parenting:
 	* Created on March 24, 2008
 	* 3.6 million members
-	* Reddit Parenting - For those with kids of any age!
+	* Headline: "Reddit Parenting - For those with kids of any age!"
 
 ## Structure of Repo
 The notebooks in this repo are numbered from 1-4 to indicate both the order in which to read them, they also indicate the order in which I went through the Data Science process. At different points in each notebook there may be code that has been commented out, when this occurs there will also be a comment explaining why the code was commented out and what it did. In addition to the numbered notebooks there is also a web scrape notebook that illustrates the data collection process I went through using the ([Pushshift API](https://github.com/pushshift/api)) to scrape data from the r/pregnant and r/parenting subreddits. Along with the notebooks you will also find a visuals folder, and a pdf of my GA class presentation for this project. The data folder for for all of the data used in this project can be found [here](https://drive.google.com/drive/folders/1jTaAQyCF7J2xsVsBQNUOKwfzB9Xv3Qtp?usp=sharing) and is broken down into three subfolders for the raw data, lemmatized or lem_data, and a downsampled folder with the downsampled datasets that I used for the modeling part of this project.
@@ -39,7 +39,7 @@ After  collecting the data using the Pushshift API and web scrape functions I th
 	* 35,415 unique redditors have posted on r/pregnant, but of those only the top 1500 have made ten or more posts.
 
 * r/parenting
-	* Time frame from February 10, 201 to October 30, 2021
+	* Time frame from February 10, 2021 to October 30, 2021
 	* 79,174 unique posts out of 99,988 total posts
 	* 51,150 unique redditors have posted on r/pregnant, but of those only the top 385 have made ten or more posts.
 
