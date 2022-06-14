@@ -57,7 +57,7 @@ The first model I attempted was a pipelined model using Logistic Regression and 
 ### Model 2 Naive Bayes and Tfidf Vectorizer
 The next model I looked at was a pipeline model using Naive Bayes and Tfidf Vectorizer. This model also performed very well overall, though slightly worse than model 2, with a train score of .931 and a test score of .917.
 
-### Model 3 Logistic Regression and Countvectorizer
+### Model 3 Logistic Regression and Tfidf Vectorizer
 The final model in notebook 3 was a pipeline model using Logistic Regression again, but this time with Tfidf Vectorizer. This proved to be slightly better than model 1 and the strongest overall model with a train score of .972 and a test score of .952. This model is ever so slightly more overfit when compared to model 1, but both the training and test scores were higher so it's the model I would recommend in use when comparing r/pregnant and r/parenting.
 
 ### Random Forest and Extra Trees 
